@@ -1,0 +1,25 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "TheCoderPanda"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Shantanu Vishwanadha's personal developer blog on software engineering, AI, and developer relations."
+  copyright = "© 2026 Shantanu Vishwanadha"
+
+[params.author]
+  name = "Shantanu Vishwanadha"
+  email = "hello@thecoderpanda.com"
+  headline = "Witty, funny, tech thought-leader"
+  bio = "Software engineer and storyteller. Sharing hard-earned wisdom, developer insights, and tech humor."
+  links = [
+    { github = "https://github.com/thecoderpanda" },
+    { twitter = "https://twitter.com/thecoderpanda" },
+    { linkedin = "https://linkedin.com/in/thecoderpanda" },
+    { link = "https://substack.com/@thecoderpanda" }
+  ]
