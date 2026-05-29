@@ -1,5 +1,5 @@
 # Build stage: install Hugo and build the site
-FROM hugomods/hugo:exts-0.162.1 AS builder
+FROM hugomods/hugo:exts-0.147.0 AS builder
 
 WORKDIR /src
 
@@ -18,4 +18,4 @@ FROM caddy:2-alpine
 COPY --from=builder /src/public /srv
 
 # Railway provides PORT env var
-CMD ["caddy", "file-server", "--root", "/srv", "--listen", ":${PORT:-80}"]
+CMD caddy file-server --root /srv --listen :${PORT:-80}
