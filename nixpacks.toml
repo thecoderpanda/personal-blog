@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ["hugo"]
+nixPkgs = ["hugo", "caddy"]
 
 [phases.build]
 cmds = ["hugo --gc --minify"]
 
 [start]
-cmd = "nixpacks-static public"
+cmd = "caddy file-server --root public --listen :$PORT"
