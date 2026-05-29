@@ -1,8 +1,14 @@
 [phases.setup]
-nixPkgs = ["hugo", "caddy"]
+nixPkgs = ["caddy"]
 
 [phases.build]
-cmds = ["hugo --gc --minify"]
+cmds = [
+  "curl -L https://github.com/gohugoio/hugo/releases/download/v0.162.1/hugo_extended_0.162.1_linux-amd64.tar.gz -o hugo.tar.gz",
+  "tar -xzf hugo.tar.gz hugo",
+  "rm hugo.tar.gz",
+  "chmod +x ./hugo",
+  "./hugo --gc --minify"
+]
 
 [start]
 cmd = "caddy file-server --root public --listen :$PORT"
