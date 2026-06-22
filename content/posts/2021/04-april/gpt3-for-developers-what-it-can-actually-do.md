@@ -8,7 +8,7 @@ tags: ["ai-agents", "gpt3", "ai", "coding"]
 seoTitle: "GPT-3 for Developers: Code & API Practical Guide"
 seoDescription: "Is OpenAI's GPT-3 a real coding assistant? We evaluate practical developer use cases, API integration, and prompt engineering with real Python examples."
 featuredImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "An abstract neon representation of generative artificial intelligence"
+imageAlt: "Glowing purple AI circuit network visualization"
 category: "ai-agents"
 readingTime: "5 min read"
 slug: "gpt3-for-developers-what-it-can-actually-do"

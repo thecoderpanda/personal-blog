@@ -5,7 +5,7 @@ date: "2023-02-08"
 author: "Shantanu Vishwanadha"
 authorUrl: "https://substack.com/@thecoderpanda"
 tags: ["bard", "chatgpt", "llm-comparison", "nlp"]
-seoTitle: "Bard vs ChatGPT: Technical Comparison"
+seoTitle: "Google Bard vs ChatGPT: An Honest Technical Developer Comparison"
 seoDescription: "A deep technical comparison between Google Bard and OpenAI ChatGPT. We evaluate reasoning, latency, information access, and architecture."
 featuredImage: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
 imageAlt: "Futuristic microchip with blue and orange glowing lines"

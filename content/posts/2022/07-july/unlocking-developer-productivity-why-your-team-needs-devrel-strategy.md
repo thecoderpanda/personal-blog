@@ -5,7 +5,7 @@ date: "2022-07-17"
 author: "Shantanu Vishwanadha"
 authorUrl: "https://substack.com/@thecoderpanda"
 tags: ["developer-relations", "developer-experience", "product-strategy", "devrel"]
-seoTitle: "Why Your Team Needs a DevRel Strategy"
+seoTitle: "Why Your Engineering Team Needs a Developer Relations Strategy"
 seoDescription: "Discover how developer relations (DevRel) and developer experience (DX) can improve your core product, boost retention, and drive adoption."
 featuredImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
 imageAlt: "A group of diverse professionals working closely together around a table with laptops."

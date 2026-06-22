@@ -8,7 +8,7 @@ tags: ["entrepreneurship", "bear-market", "startups", "productivity"]
 seoTitle: "Building in a Bear Market: Startup Survival Guide"
 seoDescription: "Market crashes can make or break a startup. Discover tactical strategies for cutting costs, managing founder mental health, and shipping during market downturns."
 featuredImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "A software builder intensely focused on his laptop screen"
+imageAlt: "Person working thoughtfully on a laptop"
 category: "entrepreneurship"
 readingTime: "5 min read"
 slug: "building-through-crashes-startup-bear-playbook"

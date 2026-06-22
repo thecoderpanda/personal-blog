@@ -10,6 +10,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 summaryLength = 0
+rssLimit = 500
 
 buildDrafts = false
 buildFuture = false

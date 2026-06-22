@@ -5,7 +5,7 @@ date: "2023-03-24"
 author: "Shantanu Vishwanadha"
 authorUrl: "https://substack.com/@thecoderpanda"
 tags: ["devrel", "gpt-4-plugins", "openai-ecosystem", "api"]
-seoTitle: "Building ChatGPT Plugins: Dev Guide"
+seoTitle: "Building ChatGPT Plugins: A Complete Developer's Ecosystem Guide"
 seoDescription: "Learn about the ChatGPT plugins ecosystem. How developers can register manifests, set up OpenAPI specifications, and build plugins."
 featuredImage: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
 imageAlt: "An organized modern technology workspace with multiple devices"

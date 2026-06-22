@@ -8,7 +8,7 @@ tags: ["ai-agents", "dalle", "generative-art", "openai"]
 seoTitle: "DALL-E AI Art: A Developer's Introduction"
 seoDescription: "OpenAI's early DALL-E models are reshaping visual creation. Dive into deep learning generative models, neural embeddings, and the future of AI imagery."
 featuredImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "A sleek humanoid robot hand interfacing with a touchscreen"
+imageAlt: "Futuristic AI technology concept with glowing nodes"
 category: "ai-agents"
 readingTime: "5 min read"
 slug: "ai-generated-art-developers-guide-dalle"

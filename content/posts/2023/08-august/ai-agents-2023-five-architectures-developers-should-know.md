@@ -8,7 +8,7 @@ tags: ["ai-agents", "agent-architectures", "react-pattern", "software-engineerin
 seoTitle: "The 5 Key AI Agent Architectures in 2023"
 seoDescription: "A comprehensive analysis of the five core AI agent architectures. Learn how to choose the right agentic pattern for your software system."
 featuredImage: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "A robot metallic hand interacting with a human hand closely"
+imageAlt: "Community members gathered and connected"
 category: "ai-agents"
 readingTime: "8 min read"
 slug: "ai-agents-2023-five-architectures-developers-should-know"

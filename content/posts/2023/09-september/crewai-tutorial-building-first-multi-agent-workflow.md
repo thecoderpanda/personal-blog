@@ -8,7 +8,7 @@ tags: ["tutorials", "crewai", "python", "multi-agent-workflow"]
 seoTitle: "CrewAI Tutorial: Multi-Agent Workflow Guide"
 seoDescription: "A hands-on developer tutorial building a multi-agent system with CrewAI in Python. Define roles, configure tasks, and run tools in parallel."
 featuredImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "A clean modern developer workspace with a laptop showing code"
+imageAlt: "Black MacBook with code on screen"
 category: "tutorials"
 readingTime: "10 min read"
 slug: "crewai-tutorial-building-first-multi-agent-workflow"

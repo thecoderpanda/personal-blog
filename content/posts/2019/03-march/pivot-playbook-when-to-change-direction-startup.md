@@ -8,7 +8,7 @@ tags: ["entrepreneurship", "startups", "pivot", "founders", "business-strategy"]
 seoTitle: "Startup Pivot Playbook: When and How to Change Direction"
 seoDescription: "A witty, storytelling-driven, and highly practical guide on how and when to pivot your startup. Real lessons from legendary tech pivots."
 featuredImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-imageAlt: "A group of startup founders collaborating around a wooden table in an office"
+imageAlt: "Team brainstorming together at a whiteboard"
 category: "entrepreneurship"
 readingTime: "7 min read"
 slug: "pivot-playbook-when-to-change-direction-startup"
