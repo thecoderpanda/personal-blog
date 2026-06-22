@@ -2,9 +2,9 @@
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
 {{- if or $.IsHome $.IsSection -}}
-{{- $pages = $pctx.RegularPages -}}
+{{- $pages = where $pctx.RegularPages "Section" "posts" -}}
 {{- else -}}
-{{- $pages = $pctx.Pages -}}
+{{- $pages = where $pctx.Pages "Section" "posts" -}}
 {{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
@@ -26,6 +26,13 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
+    {{- $page := . -}}
+    {{- $raw := .Content | string -}}
+    {{- $raw = $raw | strings.ReplaceRE `(?s)<div[^>]*class="anchor"[^>]*>.*?</div>` "" -}}
+    {{- $raw = $raw | strings.ReplaceRE `(?s)<span[^>]*select-none[^>]*>.*?</span>` "" -}}
+    {{- $raw = $raw | strings.ReplaceRE ` class="relative group"` "" -}}
+    {{- $raw = $raw | strings.ReplaceRE `<div class="highlight-wrapper">` "" -}}
+    {{- $raw = $raw | strings.ReplaceRE `</div>\s*</div>\s*</div>` `</div>` -}}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -33,7 +40,7 @@
       {{ with $.Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ with .Params.seoDescription }}{{ . | html }}{{ else }}{{ with .Description }}{{ . | html }}{{ else }}{{ .Summary | html }}{{ end }}{{ end }}</description>
-      <content:encoded><![CDATA[{{ with .Params.featuredImage }}<img src="{{ . }}" alt="{{ $.Title }}" style="max-width:100%;height:auto;margin-bottom:1.5rem;" />{{ end }}{{ .Content }}]]></content:encoded>
+      <content:encoded><![CDATA[{{ with $page.Params.featuredImage }}<img src="{{ . }}" alt="{{ $page.Title }}" style="max-width:100%;height:auto;margin-bottom:1.5rem;border-radius:8px;" />{{ end }}{{ $raw | safeHTML }}]]></content:encoded>
     </item>
     {{ end }}
   </channel>
